@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section id="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/logo1.png" height="80" width="90"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#one">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#two">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#three">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </section>
+
+        <section id="home">
+            <div class="container">
+                <h1>I'm Kshitij <br><span id="typed"></span></h1>
+                <p>Developer, Designer, Programmer</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/_kaydeee__/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kshitij-dhawan-a8a25b18b/"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/KDTEC"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me" id="one">
+            <div class="container about" id="about">
+                <h1>About</h1>
+                <div class="about-me-info">
+                    <p>I'm a B.tech undergraduate currently pursuing computer science from VIT Vellore. Being a tech enthusiast I love to explore new technology and building web apps with innovative software solutions. Skilled in Python (Programming Language), C++, Bootstrap, Cascading Style Sheets (CSS), and C (Programming Language). I am a team player. I get across to people and adjust to changes with ease.
+                         This website compiles my diverse experiences and ideas.</p>
+                </div>
+                <img src="images/background.jpg">
+            </div>
+        </section>
+
+        <section class="skill" id="two">
+            <div class="container skills" id="skills">
+                <h1>Skills</h1>
+                <p class="skills-info">
+                    PROGRAMMING LANGUAGES:   C,PYTHON,C++
+                    <hr class="style-three">
+                </p>
+                <p class="skills-info">
+                    WEB DEV:   HTML,CSS,PHP
+                    <hr class="style-three">
+                </p>
+                
+                <p class="skills-info">
+                    FRAMEWORKS:   BOOTSTRAP,JQUERY
+                    <hr class="style-three">
+                </p>
+                <p class="skills-info">
+                    TOOLS:  VISUAL STUDIO,GIT,WAMP
+                    <hr class="style-three">
+                </p>
+                
+            </div>
+        </section>
+        
+        <section class="contact" id="three">
+            <div class="container contact-me">
+                <h1>Contact Me</h1>
+                <p class="contact-info">
+                    📧E-mail Me At: kshitijdhawan1999@yahoo.com
+                    <hr class="style-one">
+                </p>
+                <p class="contact-info">
+                    📞Phone No: (+91) 9548844383
+                    <hr class="style-one">
+                </p>
+                <p class="contact-info">
+                    🚩Location: AGRA,UP (India)
+                    <hr class="style-one">
+                </p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 footer-info">
+                            <p>Made With <i class="fa fa-heart"></i> by Kshitij Dhawan</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 footer-links">
+                            <a href="https://www.instagram.com/_kaydeee__/"><i class=" fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kshitij-dhawan-a8a25b18b/"><i class=" fa fa-linkedin"></i></a>
+                            <a href="https://github.com/KDTEC"><i class=" fa fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="typed.js"></script>
+        <script>
+            $('document').ready(function(){
+                var typed=new Typed('#typed',{
+                    strings:["a computer science student","a web developer","a coding enthusiast"],
+                    backSpeed:43,
+                    typeSpeed:43,
+                    loop:true,
+                })
+            })
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>
